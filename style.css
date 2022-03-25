@@ -8,7 +8,7 @@ h1{
     font-family:verdana;
 }
 
-/* Defines labels and input fields alignments */
+/* Defines labels and input elements alignments */
 label{
     display: inline-block;
     float: left;
@@ -29,5 +29,12 @@ input {
     width: 500px;
     padding: 20px;
     border-radius: 25px;
-    align-self: center
+    text-align: left;
+}
+
+/* Formats the internal div (inside maindiv) so the content can be centralized */
+.subdiv {
+    margin: auto;
+    width: 70%;
+    padding: 5px;
 }
