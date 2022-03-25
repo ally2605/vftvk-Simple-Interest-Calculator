@@ -8,6 +8,20 @@ h1{
     font-family:verdana;
 }
 
+/* Defines labels and input fields alignments */
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 120px;
+    text-align: left; 
+}
+input {
+  display: inline-block;
+  float: left;
+}
+
+/* MainDiv Formatting */
 .maindiv
 {
     background-color:white;
@@ -15,5 +29,5 @@ h1{
     width: 500px;
     padding: 20px;
     border-radius: 25px;
-    align: center    
+    align-self: center
 }
