@@ -7,15 +7,6 @@ h1{
     color:grey;
     font-family:verdana;
 }
-
-label{
-    text-align: left;
-}
-
-input {
-  float: left;
-}
-
 .maindiv
 {
     background-color:white;
